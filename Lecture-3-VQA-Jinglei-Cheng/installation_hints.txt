@@ -1,0 +1,14 @@
+conda create -n demo_qucs python=3.9
+conda activate demo_qucs
+
+pip install pyscf
+pip install qiskit_nature
+
+git clone https://github.com/Hanrui-Wang/quantum-computer-systems-lectures.git
+
+git clone https://github.com/mit-han-lab/torchquantum.git
+cd torchquantum
+pip install --editable .
+
+
+
