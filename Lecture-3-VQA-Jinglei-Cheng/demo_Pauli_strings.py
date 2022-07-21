@@ -1,7 +1,7 @@
 from qiskit_nature.drivers.second_quantization.pyscfd import PySCFDriver
 from qiskit_nature.drivers import UnitsType
 from qiskit_nature.problems.second_quantization.electronic import ElectronicStructureProblem
-from qiskit_nature.mappers.second_quantization import ParityMapper
+from qiskit_nature.mappers.second_quantization import ParityMapper, BravyiKitaevMapper, JordanWignerMapper
 from qiskit_nature.converters.second_quantization import QubitConverter
 import numpy as np
 
@@ -24,3 +24,5 @@ def print_pauli_op(dist):
 if __name__ == '__main__':
     print_pauli_op(0.7)
     
+# Different options for Mapper: ParityMapper, BravyiKitaevMapper, JordanWignerMapper
+# Different options for basis: '321g','sto6g','431g'
