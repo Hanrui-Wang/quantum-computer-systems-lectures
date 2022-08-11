@@ -14,3 +14,12 @@ Zhiding Liang (https://zlianghahaha.github.io/)
 
 Hanrui Wang (https://hanruiwang.me)
 
+
+Website: 
+
+Lecture Website: https://sites.nd.edu/quantum/
+
+Useful Quantum Machine learning Website: https://qmlsys.mit.edu/
+
+
+
