@@ -15,7 +15,7 @@ def print_pauli_op(dist):
     main_op = second_q_ops[0]
     num_particles = problem.num_particles
     num_spin_orbitals = problem.num_spin_orbitals
-    mapper = ParityMapper()
+    mapper = BravyiKitaevMapper()
     converter = QubitConverter(mapper=mapper, two_qubit_reduction=True)
     qubit_op = converter.convert(main_op, num_particles=num_particles)
     print("Pauli strings are: \n", qubit_op)
