@@ -12,7 +12,7 @@ Organizers:
 
 Zhiding Liang (https://zlianghahaha.github.io/)
 
-Hanrui Wang (https://hanruiwang.me)
+Hanrui Wang (https://hanruiwang.mit.edu)
 
 
 Website: 
